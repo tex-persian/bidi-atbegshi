@@ -8,16 +8,16 @@
 \setbox3\hbox{\Huge\textbf{Lower Right}}
 \AtBeginShipout{%
 \AtBeginShipoutUpperLeftForeground{%
-\put(0,\LengthToUnit{-\ht0}){\usebox0}
+\put(0,-\ht0){\usebox0}
 }
 \AtBeginShipoutUpperRightForeground{%
-\put(\LengthToUnit{-\wd1},\LengthToUnit{-\ht1}){\usebox1}
+\put(-\wd1,-\ht1){\usebox1}
 }
 \AtBeginShipoutLowerLeftForeground{%
-\put(0,\LengthToUnit{\dp2}){\usebox2}
+\put(0,\dp2){\usebox2}
 }
 \AtBeginShipoutLowerRightForeground{%
-\put(\LengthToUnit{-\wd3},\LengthToUnit{\dp3}){\usebox3}
+\put(-\wd3,\dp3){\usebox3}
 }
 }
 \begin{document}

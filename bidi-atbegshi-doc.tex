@@ -2,9 +2,9 @@
 \usepackage{holtxdoc}
 \begin{document}
 \title{The \xpackage{bidi-atbegshi} Package}
-\author{Vafa Khalighi\\\xemail{tex.ctan@gmail.com}}
+\author{Vafa Khalighi\\\xemail{tex-persian@vafa.ac}}
 \maketitle
-The \xpackage{bidi-atbegshi} adds bidi support to package \xpackage{atbegshi}; it modifies the \cs{AtBeginShipoutUpperLeft}, and \cs{AtBeginShipoutUpperLeftForeground} so that they properly both in LTR and RTL modes. In addition, it also defines the following commands:
+The \xpackage{bidi-atbegshi} adds bidi support to package \xpackage{atbegshi-ltx}; it defines the following commands:
 
 \begin{declcs}{AtBeginShipoutUpperRight} \M{background material}
 \end{declcs}
@@ -52,8 +52,4 @@ Similar to the \cs{AtBeginShipoutUpperRight} command but
  \end{declcs}
  See \cs{AtBeginShipoutLowerRight}. The difference is that the material
  is put in the foreground.
- 
-  \begin{declcs}{LengthToUnit} \M{length with units}
- \end{declcs}
- For instance, \cs{LengthToUnit}\texttt{\{12pt\}} converts 12pt to 12 (stripping the unit).
 \end{document}
